@@ -1,0 +1,37 @@
+.container-item {
+    background-color: #EFEFF7;
+    width: 90%;
+    margin-top: 30px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.container-nodata {
+    background-color: #EFEFF7;
+    width: 90%;
+    margin-top: 30px;
+    margin: 0 auto;
+    padding: 25px;
+    
+    margin-bottom: 15px;
+}
+.group-order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+.item-count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+    margin: 0 0 ;
+}
