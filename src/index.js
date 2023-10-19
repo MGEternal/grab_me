@@ -5,13 +5,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './component/MyNav';
 import Main from './component/MainOrder'
-import Items from './component/Items'
+import Items from './component/Items-data'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar/>
     <Main />
     <Items />
+
   </React.StrictMode>
 );
 

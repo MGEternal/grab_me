@@ -34,7 +34,7 @@ function Items() {
               <div className="count">จำนวน {item.count} กล่อง</div>
             </div>
             <p>ร้านละเอียดเพิ่มเติม</p>
-            <p>{item.detail}</p>
+            <p className='detail'>{item.detail}</p>
             <div className="group-order">
               <button className="btn-get">เราซื้อให้</button>
               <div className="ph_holder">testttttt tttt</div>
