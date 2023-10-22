@@ -56,17 +56,15 @@ function Items_data() {
             </div>
             {activePopup === index && (
               <div>
-                <div className="backdrop"></div>
+                <div className="backdrop" onClick={closePopup}></div>
 <div className="popup">
                 {/* Popup content here */}
                 <div className="header">
                 <h2>กรุณากรอกข้อมูล</h2>
-                <button className="close-btn" onClick={closePopup}>
-                  Close Popup
-                </button>
+                
                 </div>
                 <hr class="solid"></hr>
-                <div className='popup_block'>
+                <div className='popup_block' >
                 <div className="name_block">
                   <label className='label_name'>ชื่อ</label>
                   <input className='input_form'type='text' name="name" placeholder='Enter your name'></input>
