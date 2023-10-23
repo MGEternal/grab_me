@@ -8,9 +8,9 @@ function MyNav(){
         <div class="logo">Logo</div>
         <ul className='ul-text'>
             
-            <li className='main'><a href="#">Main </a></li>
-            <li><a href="#">Order</a></li>
-            <li><a href="#">Accepted Order</a></li>
+            <li className='main'><a href="/">Main </a></li>
+            <li><a href="order">Order</a></li>
+            <li><a href="accept">Accepted Order</a></li>
         </ul>
     </div>
         </navbar>

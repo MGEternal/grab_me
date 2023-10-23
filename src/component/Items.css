@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
 .container-item {
     background-color: #EFEFF7;
     width: 90%;
@@ -8,6 +9,7 @@
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 25px;
+    font-family: 'Kanit', sans-serif;
 }
 .container-nodata {
     background-color: #EFEFF7;
@@ -83,7 +85,7 @@
     top: 50%;
     left: 50%;
     width: 60%;
-    height: 46%;
+    height: 48%;
     transform: translate(-50%, -50%);
     background: #f3f1f1;
     padding: 10px;

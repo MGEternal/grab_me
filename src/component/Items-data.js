@@ -73,7 +73,7 @@ function Items_data() {
                 <div className="name_block">
                 <label className='label_name'>เบอร์ติดต่อ</label>
                 
-                  <input className='input_form'type='nember' name="phone" placeholder='Enter your telephone'></input>
+                  <input className='input_form'type='number' name="phone" placeholder='Enter your telephone'></input>
                 </div>
               </div>
               <div className='popup_block'>
