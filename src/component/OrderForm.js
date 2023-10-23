@@ -14,7 +14,7 @@ function OrderForm(){
                   <input className='input_form'type='text' name="name" placeholder='Enter your name'></input>
                   
                 </div>
-                <div className="name_block">
+                <div className="name_block2">
                 <label className='label_name'>เบอร์ติดต่อ</label>
                 
                   <input className='input_form'type='number' name="phone" placeholder='Enter your telephone'></input>
@@ -34,6 +34,7 @@ function OrderForm(){
                   
                 </div>
                 <div className="name_block2">
+                  
                 <label className='label_number'>จำนวน</label>
                 
                   <input className='input_form'type='number' name="phone" placeholder='Enter your telephone'></input>
